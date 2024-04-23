@@ -99,18 +99,18 @@ const FirebaseComponent = () => {
             <p className='text-2xl text-gray-600 font-semibold'>Analytical Overview</p>
         </div>
         <div className='flex flex-row basis-1/6 flex-wrap justify-evenly'>
-            <div className='flex sm:basis-1/4 max-w-[230px] min-w-[165px] w-[165px] bg-gradient-to-tl from-red-400 to-pink-500 h-[125px] sm:mr-16 mr-3 mt-6 rounded-md shadow-lg'>
+            <div className='flex sm:basis-1/4 max-w-[230px] min-w-[160px] w-[160px] bg-gradient-to-tl from-red-400 to-pink-500 h-[125px] sm:mr-16 mr-3 mt-6 rounded-md shadow-lg'>
                 <div className='flex w-[40%] items-center justify-center'>
                     <div className='flex'>
-                        {icon && <img src={icon} alt="Weather Icon" className="h-18 w-18 ml-2" />}  
+                        {icon && <img src={icon} alt="Weather Icon" className="h-18 w-18 ml-1" />}  
                     </div>
                 </div>
-                <div className='flex flex-col items-center justify-center mx-2 ml-4'>
+                <div className='flex flex-col items-center justify-center mx-2 ml-2'>
                     <p className='text-white lg:text-3xl text-2xl font-semmibold items-center'>{temperature}°C</p>
                     <p className='text-white text-sm text-center'>{condition}</p>
                 </div>
             </div>
-            <div className='flex sm:basis-1/4 w-[165px] max-w-[230px] min-w-[165px] bg-gradient-to-tl from-palegreen to-blue-400 h-[125px] sm:mr-16 mt-6 rounded-md shadow-lg'>
+            <div className='flex sm:basis-1/4 w-[160px] max-w-[230px] min-w-[160px] bg-gradient-to-tl from-palegreen to-blue-400 h-[125px] sm:mr-16 mt-6 rounded-md shadow-lg'>
                 <div className='flex sm:w-[40%] w-1/3 items-center justify-center'>
                     <FaTemperatureThreeQuarters className=' sm:h-10 sm:w-10 h-8 w-8 text-white' />
                 </div>
@@ -119,7 +119,7 @@ const FirebaseComponent = () => {
                     <p className='text-white text-sm text-center'>Field Tempreture</p>
                 </div>
             </div>
-            <div className='flex sm:basis-1/4 w-[165px] max-w-[230px] min-w-[165px] bg-gradient-to-tl from-pink-400 to-mediumpurple h-[125px] sm:mr-16 mr-3 mt-6 rounded-md shadow-lg'>
+            <div className='flex sm:basis-1/4 w-[160px] max-w-[230px] min-w-[160px] bg-gradient-to-tl from-pink-400 to-mediumpurple h-[125px] sm:mr-16 mr-3 mt-6 rounded-md shadow-lg'>
                 <div className='flex sm:w-[40%] w-1/3 items-center justify-center'>
                     <WiHumidity className=' h-14 w-14 text-white' />
                 </div>
@@ -128,7 +128,7 @@ const FirebaseComponent = () => {
                     <p className='text-white text-sm text-center'>Field Humidity</p>
                 </div>
             </div>
-            <div className='flex sm:basis-1/4 w-[165px] max-w-[230px] min-w-[165px] bg-gradient-to-tl from-tomato to-goldenrod h-[125px] mt-6 rounded-md shadow-lg'>
+            <div className='flex sm:basis-1/4 w-[160px] max-w-[230px] min-w-[160px] bg-gradient-to-tl from-tomato to-goldenrod h-[125px] mt-6 rounded-md shadow-lg'>
                 <div className='flex sm:w-[40%] w-1/3 items-center justify-center'>
                     <BsMoisture className=' h-10 w-10 text-white' />
                 </div>

@@ -2,7 +2,7 @@ import { MdRocketLaunch } from "react-icons/md";
 
 function Team() {
     return ( 
-        <div className="flex overflow-y-auto h-screen mb-20" >
+        <div className="flex overflow-y-auto h-screen mb-14" >
             <div className="flex flex-col lg:mx-32 md:mx-10 sm:mx-8 mx-7">
             <div className="flex flex-col">
                 <div className="flex sm:mt-24 mt-16 items-center">
