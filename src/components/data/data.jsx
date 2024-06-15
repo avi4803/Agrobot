@@ -9,14 +9,14 @@ import { FaCamera } from "react-icons/fa";
 import { FaMapMarkedAlt } from "react-icons/fa";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBneWXK9wj4T3SL8tMmJ5uTSMV0GUyW4F0",
-  authDomain: "sparkbot-ee008.firebaseapp.com",
-  databaseURL: "https://sparkbot-ee008-default-rtdb.firebaseio.com",
-  projectId: "sparkbot-ee008",
-  storageBucket: "sparkbot-ee008.appspot.com",
-  messagingSenderId: "931360089954",
-  appId: "1:931360089954:web:4eb932f57bd39cbd016e3b"
-}
+    apiKey: "AIzaSyBneWXK9wj4T3SL8tMmJ5uTSMV0GUyW4F0",
+    authDomain: "sparkbot-ee008.firebaseapp.com",
+    databaseURL: "https://sparkbot-ee008-default-rtdb.firebaseio.com",
+    projectId: "sparkbot-ee008",
+    storageBucket: "sparkbot-ee008.appspot.com",
+    messagingSenderId: "931360089954",
+    appId: "1:931360089954:web:4eb932f57bd39cbd016e3b"
+};
 
 const app = initializeApp(firebaseConfig);
 
